@@ -19,7 +19,6 @@ function getShowInfo(show){
    $.get('http://api.tvmaze.com/singlesearch/shows?q=' + show).then(function(response){
       //once we get a response we execute the call back function we pass to .then() method
       console.log(response);
-      lg
       //we pass the data from maze.api to our create card function
       createShowCard(response)
    })
