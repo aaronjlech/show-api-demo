@@ -1,6 +1,7 @@
-##SHOW API DEMO
+##SHOW API DEMO ##
 
-###Links For This Project:
+###Links For This Project:###
+
 [jquery HTTP promise library](https://api.jquery.com/jquery.get/)
 ```      
 <script
