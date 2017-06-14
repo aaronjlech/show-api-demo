@@ -1,0 +1,26 @@
+body{
+   margin: 0;
+}
+*{
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.search-box{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+input{
+   font-size: 2rem;
+
+}
+input:focus{
+   outline: none;
+   box-shadow: none;
+}
+.submit{
+   outline: none;
+   background: #16a085;
+   border: none;
+   color: #FFF;
+   font-size: 20px;
